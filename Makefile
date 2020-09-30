@@ -24,7 +24,7 @@ PEP8_LINT          ?= pep8
 PEP8_LINT_ARGS     ?= --max-line-length=132
 PYTHON             ?= python3
 PYTHON_VERSION     ?= $(shell $(PYTHON) -c "import sys; sys.stdout.write(sys.version[:3])")
-SUDO               ?= sudo
+SUDO               ?=
 
 # The list of Debian packages on which Happy depends which must be
 # installed before Happy may be used.
